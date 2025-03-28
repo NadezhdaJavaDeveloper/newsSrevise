@@ -20,9 +20,9 @@ public class News implements Editable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+     @ManyToOne
     @JoinColumn(name = "category_id",
-            nullable = true)
+            nullable = false)
     private Category category;
 
     private String content;

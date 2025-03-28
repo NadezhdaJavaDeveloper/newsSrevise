@@ -1,4 +1,4 @@
-## И# Новостной сервис 
+# Новостной сервис 
 
 ## Функционал
 
@@ -34,7 +34,7 @@
 1) убедитесь, что на вашем ПК установлены IntelliJ IDEA, Docker Desktop и Postmen;
 2) клонируйте код приложения из репозитория командой:
 ```
-git clone <https://github.com/NadezhdaJavaDeveloper/___>
+git clone <https://github.com/NadezhdaJavaDeveloper/newsSrevise.git>
 ```
 3) откройте проект с помощью IntelliJ IDEA;
 4) откройте терминал;

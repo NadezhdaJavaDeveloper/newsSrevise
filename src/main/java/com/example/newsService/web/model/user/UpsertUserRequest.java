@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UpsertUserRequest {
 
-    @NotNull(message = "Пользователь обязан зарегистрироваться")
+    @NotNull(message = "Введите ник пользователя")
     private String nickname;
 }

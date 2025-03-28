@@ -17,7 +17,7 @@ public class UpsertNewsRequest {
     @NotBlank(message = "Содержание новости должно быть указано")
     private String content;
     @NotNull(message = "Id автора новости должен быть указан")
-    @Positive(message = "Идентификатор пользователя не может быть отрицаьтельным")
+    @Positive(message = "Идентификатор пользователя не может быть отрицательным")
     private Long userId;
 
 }

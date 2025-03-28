@@ -24,7 +24,7 @@ public class Category {
     private String categoryName;
 
     @OneToMany(mappedBy = "category",
-            cascade = {CascadeType.PERSIST, CascadeType.MERGE},
+            cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE},
             orphanRemoval = false)
     @ToString.Exclude
     @Builder.Default
